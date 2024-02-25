@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics Designer Landing Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .jumbotron {
+            background-color: #f4e117;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .services-section {
+            padding: 50px 0;
+        }
+
+        .service-item {
+            text-align: center;
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: #007bff;
+        }
+
+        .portfolio-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+
+        .portfolio-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .contact-section {
+            padding: 50px 0;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+        }
+        .dropdown-box {
+            display: flex;
+        }
+    </style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <a class="navbar-brand" href="#">Omart Cr8tivity</a> -->
+    <img src="OMART logo.png" height="50" width="70" alt="Brand logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <div class="dropdown-box">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Designs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Logo</a>
+                  <a class="dropdown-item" href="#">eflyer</a>
+                  <a class="dropdown-item" href="#">3D illustrations</a>
+                  <a class="dropdown-item" href="businesscards.html">Business cards</a>
+                  
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Prints
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Bag</a>
+                  <a class="dropdown-item" href="#">Flyer</a>
+                  <a class="dropdown-item" href="#">Jotter</a>
+                  <a class="dropdown-item" href="#">Banner</a>
+                  <a class="dropdown-item" href="#">Jotter</a>
+                  <a class="dropdown-item" href="#">Poster</a>
+                  <a class="dropdown-item" href="#">Brochures</a>
+                  <a class="dropdown-item" href="#">Calender</a>
+                  <a class="dropdown-item" href="#">Letterhead</a>
+                  <a class="dropdown-item" href="#">Award Plaque</a>
+                  <a class="dropdown-item" href="#">Business cards</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Branding
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">T-shirts</a>
+                  <a class="dropdown-item" href="#">Backdrop</a>
+                  <a class="dropdown-item" href="#">Office branding</a>
+                  <a class="dropdown-item" href="#">Stationaries branding</a>
+                  
+                </div>
+            </li>
+        </div>
+        
+      </ul>
+      
+  </nav>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Welcome to <strong>OMART CR8TIVITY</strong> </h1>
+        <p>We bring your ideas to life with stunning graphics.</p>
+        <p > <strong>Design Print Brand Package</strong></p>
+        <a href="#services" class="btn btn-danger btn-lg">Our Services</a>
+    </div>
+
+    <div id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128293;</span>
+                        <h3>Logo Design</h3>
+                        <p>We create unique and memorable logos tailored to your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128202;</span>
+                        <h3>Graphic Illustration</h3>
+                        <p>From cartoons to complex illustrations, we bring your ideas to life.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128640;</span>
+                        <h3>Print Design</h3>
+                        <p>High-quality designs for business cards, brochures, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="cardslide.png" height="500" width="300" class="d-block w-100" alt="Carousel Image 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="first.png" height="500" width="700" class="d-block w-100" alt="Carousel Image 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.pinimg.com/564x/7e/e8/69/7ee86918e54ff8d143f06421647624f3.jpg" height="500" width="700" class="d-block w-100" alt="Carousel Image 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- <div id="services" class="services-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-item">
+                    <span class="service-icon">&#128293;</span>
+                    <h3>Logo Design</h3>
+                    <p>We create unique and memorable logos tailored to your brand.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <span class="service-icon">&#128202;</span>
+                    <h3>Graphic Illustration</h3>
+                    <p>From cartoons to complex illustrations, we bring your ideas to life.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <span class="service-icon">&#128640;</span>
+                    <h3>Print Design</h3>
+                    <p>High-quality designs for business cards, brochures, and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  -->
+  
+    <div id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="Folio/T-shirt/gist yellow.jpeg" alt="Portfolio Image" class="portfolio-image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="Folio/cards/biz card.jpeg" alt="Portfolio Image" class="portfolio-image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="https://i.pinimg.com/564x/1a/bc/a0/1abca0b17af83ed72c6fff1d5e41ad78.jpg" alt="Portfolio Image" class="portfolio-image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="https://i.pinimg.com/564x/dc/b8/45/dcb845c4902547c44ed28ef5d70fe0fb.jpg" alt="Portfolio Image" class="portfolio-image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="https://i.pinimg.com/564x/c1/e4/03/c1e403f79c8711abe1693c6f59c52051.jpg" class="portfolio-image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="https://i.pinimg.com/564x/19/e8/53/19e8534289174fa73074177e0ee103db.jpg" alt="Portfolio Image" class="portfolio-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
