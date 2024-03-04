@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Certified graphics designer in lagos Nigeria</title>
+    <title>Omart Cr8tivity</title>
     <meta name="description" content="business card, designs, t-shirt printing,calender, customized mugs, pen, roll-up banner, flyers, carrier bags posters in lagos Nigeria">
     <meta name="keywords" content="Graphics design,business cards, logo creation, i d card printing, t T-shirt printing in lagos Nigeria">
     <!-- <title>Certified graphics designer</title> -->
@@ -19,16 +19,12 @@
         }
 
         .jumbotron {
-            /* background-color: #d7c718; */
-            background-size: cover;
-            color: #FCDC2A;
+          background-color:#f1c40f;
+           background-size: cover;
+            color: Z;
             text-align: center;
             padding: 100px 0;
-        }
-        .jumb-container{
-            background-color:#000000;
-         
-        }
+       }
         .image-text img {
       
             border-radius: 10%;
@@ -37,43 +33,6 @@
         .para{
             text-align: center;
         }
-
-        /* .services-section {
-            padding: 50px 0;
-        }
-
-        .service-item {
-            text-align: center;
-        }
-
-        .service-icon {
-            font-size: 3rem;
-            color: #007bff;
-            justify-content: center;
-        } */
-/* 
-        .portfolio-section {
-            padding: 50px 0;
-            background-color: #f8f9fa; */
-        /* } */
-
-        /* .portfolio-item {
-            margin-bottom: 30px;
-        } */
-
-        /* .portfolio-image {
-            width: 100%;
-            border-radius: 10px;
-        } */
-
-        /* .contact-section {
-            padding: 50px 0;
-        } */
-
-        /* .contact-form {
-            max-width: 500px;
-            margin: auto; */
-        /* } */
         .dropdown-box {
             display: flex;
         }
@@ -83,17 +42,12 @@
         .move-text{
             text-align: center;
             text-decoration: solid;
+            padding-top: 20px;
         }
         .container {
           margin-top: 40px;
         }
-        /* .cont{
-            /* background-color: #FCDC2A; */
-            /* padding: 10px;
-            margin: 10px; */ */
-        /* }
-        /* @media screen { max-width : 768px} */
-            /* { */
+      
 
 #featured-3{
   width: auto;
@@ -102,6 +56,71 @@
           display: flex;
           gap: 30px;
         }
+        .button {
+  position: relative;
+  left: 45%;
+  width: 150px;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 20px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 160px;
+  height: 48px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.button:hover::after {
+  filter: blur(30px);
+}
+
+.button:hover::before {
+  transform: rotate(-180deg);
+}
+
+.button:active::before {
+  scale: 0.7;
+}
+.portfolio-item{
+  padding: 4%;
+  margin-top: 10px;
+}
+.footer{
+  background-color: #000;
+  color: #f1c40f;
+  text-align: center;
+}
+
     </style>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -128,17 +147,23 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Prints
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Design</a></li>
-              <li><a class="dropdown-item" href="#">Prints</a></li>
+              <li><a class="dropdown-item" href="#">T-shirt</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Branding</a></li>
+              <li><a class="dropdown-item" href="#">Identity Card</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Wedding Programmes</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -146,12 +171,15 @@
               Designs
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Design</a></li>
-              <li><a class="dropdown-item" href="#">Prints</a></li>
+              <li><a class="dropdown-item" href="#">Logo creation</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Branding</a></li>
+              <li><a class="dropdown-item" href="#">Flyers</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Posters</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -159,12 +187,15 @@
               Branding
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Design</a></li>
-              <li><a class="dropdown-item" href="#">Prints</a></li>
+              <li><a class="dropdown-item" href="#">Throw Pillows</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Branding</a></li>
+              <li><a class="dropdown-item" href="#">Souvenirs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Customized Gift Items</a></li>
             </ul>
           </li>
         </ul>
@@ -185,6 +216,7 @@
         <p>We bring your ideas to life with stunning graphics.</p>
         <p > <strong>Design Print Brand Package</strong></p>
         <a href="#services" class="btn btn-danger btn-lg">Our Services</a>
+        
     </div>
 
     
@@ -197,7 +229,6 @@
                   
           <div class="feature col">
             <div id="head-h3">
-            
             <h3 class="fs-2"><strong>Designs</strong></h3>
             <div class="image-text">
             <img src="https://i.pinimg.com/236x/a1/fe/58/a1fe5846530ecb5e15a22d51ab946f99.jpg" height="250px" width="250px" alt="">
@@ -213,7 +244,7 @@
             <h3 class="fs-2"><strong>Printing</strong></h3>
             <div class="image-text">
             <img src="https://i.pinimg.com/564x/42/df/69/42df69e5f9b9c04ff83107ce0cc2159a.jpg" height="250px" width="250px" alt="">
-            <p class="para">With our quality printing techniques, we bring turns imagination to reality.</p>
+            <p class="para">With our quality printing techniques, we turns imagination to reality.</p>
               <a href="#services" class="btn btn-primary btn-lg">See more</a>
         </div>
           </div>
@@ -280,11 +311,25 @@
 
 
     <!-- portfolio-section -->
-<div class="container px-4 py-5 class" id="featured-3">
+<!-- <div class="container px-4 py-5 class" id="featured-3">
         
-    <h2 class="move-text">Portfolio</h2>
+    <h2>
+      <button class="button">
+        <strong>Portfolio</strong>
+      </button>
+    </h2> -->
+    
+    <div class="portfolio-item">
+      <h2>
+        <button class="button">
+          <strong>Portfolio</strong>
+        </button>
+      </h2>
+      <!-- <h2><STRong>Portfolio</STRong</h2> -->
+      <img src="port.png" width="100%" alt="portfolio">
+    </div>
     <hr>
-    <div class="row g-4 px-4 py-5 row-cols-sm-2 row-cols-lg-4 bg-light ">
+    <!-- <div class="row g-4 px-4 py-5 row-cols-sm-2 row-cols-lg-4 bg-light ">
               
       <div class="feature col">
         <div id="head-h3">
@@ -372,17 +417,16 @@
         </div>
       </div>
     </div>
-    </div>
+    </div> -->
   
     
 <div class="contact">
     <div class="container-contact">
       <div class="contact-info">
         <h2>Contact Us</h2>
-        <!-- <p>Feel free to reach out to us with any questions, comments, or feedback!</p> -->
         <address>
           <strong>Phone:</strong>+234 8125070170 <br>
-          <strong>Email:</strong>Omartcreativity@gmail.com<br>
+          <strong>Email:</strong>@Omartcreativity@gmail.com<br>
           
         <address>
           <strong>Company Details</strong><br>
@@ -391,14 +435,12 @@
           Nigeria.<br>
         </address>
       </div>
-    <!-- </div> -->
-</div>
-<!-- <div class="contact"> -->
+ </div>
+
     <div class="container-contact">
       <div class="contact-info">
         <h2>Social handles</h2>
-        <!-- <p>Feel free to reach out to us with any questions, comments,<br> or feedback!</p> -->
-        <address>
+       <address>
           <strong>Instagram :</strong>Omartcreativity@Instagram<br>
           <strong>Facebook :</strong>Omartcreativity@facebook.com<br>
           <strong>WhatsApp:</strong>+234 8125070170 <br>
@@ -406,25 +448,9 @@
        </div>
     </div>
 </div>
-
-    <!-- <footer class="footer">
-    <section>
-        <div>
-    <div class="contact-form">
-        <h2>Send a Message</h2>
-        <form action="#" method="POST">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-    </div>
-  </section>
-    </footer> -->
 </div>
-<div class="cont-foot">
-    <!-- <p>&copy; 2024 Click Fix Technology. All rights reserved.</p> -->
+<div class="footer">
+    <p>&copy; 2020 - 2024 Omart Cr8tivity. All rights reserved.</p>
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
